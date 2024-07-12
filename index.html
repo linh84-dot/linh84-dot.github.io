@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV của Nguyễn Thị Mai</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .cv-container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #009879;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+        }
+        header .job-title {
+            color: #009879;
+            font-size: 1.2em;
+            text-align: right;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            font-size: 1.5em;
+            color: #009879;
+            border-bottom: 2px solid #009879;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        section p, section ul {
+            font-size: 1em;
+            color: #666;
+            margin: 0;
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        section ul li {
+            margin-bottom: 5px;
+        }
+        .info-icon {
+            color: #009879;
+        }
+        .info-text {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .skills .skill, .languages .language, .hobbies .hobby {
+            display: flex;
+            align-items: center;
+        }
+        .skills .skill::before, .languages .language::before, .hobbies .hobby::before {
+            content: "•";
+            margin-right: 10px;
+            color: #009879;
+        }
+        .languages .level {
+            display: flex;
+            align-items: center;
+        }
+        .languages .level div {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #009879;
+            margin: 0 3px;
+        }
+        .languages .level div.inactive {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <header>
+            <div>
+                <h1>Nguyễn Thị Mai</h1>
+                <p class="job-title">Nhân viên kinh doanh</p>
+            </div>
+            <img src="avatar.jpg" alt="Avatar">
+        </header>
+        <section class="info">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><span class="info-icon">&#9679;</span><span class="info-text">Giới tính: Nữ</span></p>
+                    <p><span class="info-icon">&#9679;</span><span class="info-text">Ngày sinh: 01-01-1992</span></p>
+                    <p><span class="info-icon">&#9679;</span><span class="info-text">Số điện thoại: 0111111111</span></p>
+                </div>
+                <div class="col-md-6">
+                    <p><span class="info-icon">&#9679;</span><span class="info-text">Địa chỉ: Quận 1, TPHCM</span></p>
+                    <p><span class="info-icon">&#9679;</span><span class="info-text">Email: nguyenthima@gmail.com</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="objective">
+            <h2>Mục Tiêu Nghề Nghiệp</h2>
+            <p>- Mong muốn học hỏi kinh nghiệm ở môi trường làm việc chuyên nghiệp, năng động.<br>
+               - Có cơ hội thăng tiến cao, thành công trong công việc.</p>
+        </section>
+        <section class="education">
+            <h2>Học Vấn</h2>
+            <p><strong>Đại học Kinh tế</strong><br>
+               Chuyên ngành: Quản trị kinh doanh<br>
+               Bằng cấp: Cử nhân đại học<br>
+               Loại tốt nghiệp: Khá</p>
+        </section>
+        <section class="experience">
+            <h2>Kinh Nghiệm Làm Việc</h2>
+            <p><strong>Siêu Việt Group</strong> (2018-01 - 2018-12)<br>
+               Chuyên viên kinh doanh<br>
+               Mô tả công việc:<br>
+               - Liên hệ với khách hàng để tư vấn và tìm hiểu nhu cầu khách hàng.<br>
+               - Thuyết phục khách hàng, chốt các gói hợp đồng phù hợp với từng khách hàng.<br>
+               - Làm hợp đồng và xử lý thanh toán.<br>
+               Thành tích đạt được:<br>
+               - Hoàn thành nhiệm vụ được giao.</p>
+        </section>
+        <section class="languages">
+            <h2>Tiếng Anh</h2>
+            <div class="language">
+                <strong>Nghe</strong>
+                <div class="level">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="inactive"></div>
+                </div>
+            </div>
+            <div class="language">
+                <strong>Nói</strong>
+                <div class="level">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="language">
+                <strong>Đọc</strong>
+                <div class="level">
+                    <div></div>
+                    <div></div>
+                    <div class="inactive"></div>
+                    <div class="inactive"></div>
+                </div>
+            </div>
+            <div class="language">
+                <strong>Viết</strong>
+                <div class="level">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <div class="row">
+            <div class="col-md-6">
+                <section class="skills">
+                    <h2>Kỹ Năng</h2>
+                    <div class="skill">Kỹ năng chính: Tư duy logic</div>
+                    <div class="skill">Kỹ năng khác: Giao tiếp tốt</div>
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section class="hobbies">
+                    <h2>Sở Thích</h2>
+                    <div class="hobby">Du lịch, nghe nhạc, thể thao, đọc sách.</div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
